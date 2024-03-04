@@ -9,7 +9,7 @@ public class TestController {
 
     @Autowired
     private TestService testService;
-
+    //method
     @GetMapping("/invokeService")
     public String invokeService() {
         return testService.invokeExternalService();
